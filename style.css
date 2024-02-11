@@ -37,11 +37,23 @@ button {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 33px;
+    margin-bottom: 10px;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
+    background-color: #0056b3;
+}
+button.copy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.copy-button:hover {
     background-color: #0056b3;
 }
